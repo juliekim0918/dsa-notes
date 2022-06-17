@@ -1,0 +1,20 @@
+{
+  "name": "dsa-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliekim0918/dsa-notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliekim0918/dsa-notes/issues"
+  },
+  "homepage": "https://github.com/juliekim0918/dsa-notes#readme"
+}
