@@ -48,3 +48,26 @@ Big-O Notation gives an upper bound of the complexity in the worst case, helping
 - Dynamic variant (i.e. smallest sum greater than or equal to some value S)
 - Dynamic variant with auxillary data structure (i.e. longest substring with no more than K distinct characters)
 - String permutation
+
+## Hash Tables
+
+To construct a hash table, you need an array, the dictionary you want to represent, and a way to decide which index of the array you want to use to put the key-value pair (we need a func that turns each of these keys into an index -- you can call that a hash function)
+
+When you're choosing a hash function, it should
+
+- be fast to compute
+- avoid collisions
+
+## Two Pointer
+
+A pointer is a reference to an object. That object stores a memory address of another value located in computer memory.
+
+When do we use it?
+
+- When you have to analyze each element of the collection compared to its other elements; allows us to process two elements per loop instead of one
+- When an array is sorted, the first thing you can think of is how to use binary search
+
+Variants of two pointers
+
+- Opposite directional: one pointer starts from the beginning and the other pointer starts from the end. They move toward each other until they both meet some condition
+- Equi-directional: both starting from the beginning, one slow-runner and the other fast-runner (sliding window)
